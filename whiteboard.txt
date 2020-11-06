@@ -6,7 +6,17 @@ The PizzaOrder always starts at a base price of $5
 
 The size and toppings chosen will change the cost of the pizza afer that, so...
 
-if size chosen === "small"  -------- if pizza.size === "small"
+the for loop below should loop through the properties in the pizza pushed to the PizzaOrder array to determine which size it contains to generate the cost
+
+
+for (pizza size index
+if pizza.size === "small"
   basePrice += 4.99;
-else if size chosen === "medium" 
+else if pizza.size === "medium" 
   basePrice += 6.99;
+
+for (pizza toppings index
+
+
+
+the for loop above should loop through the properties in the pizza pushed to the PizzaOrder array to determine which toppings it contains to generare the cost --- how to determine which checkboxes are checked?
