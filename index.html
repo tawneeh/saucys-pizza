@@ -10,10 +10,10 @@
 <body>
   <div class="container">
     <h1>Saucy's Pizza</h1>
-    <p>Where the pizza is always deliciously saucy!</p>
+    <h3>Where the pizza is always deliciously saucy!</h3>
       <form id="orderForm">
-        <div>
-        <h1>Choose Your Pizza Size</h1>
+        <div class="form-group">
+        <legend>Choose Your Pizza Size</legend>
           <select class="form-control" id="size">
             <option>Small</option>
             <option>Medium</option>
@@ -34,16 +34,17 @@
             </div>
             <div>
               <input type="checkbox" id="mushrooms" name="topping" value="mushrooms"></input>
+              <label for="mushrooms">Mushrooms</label>
             </div>
         </fieldset>
 
 
-        <button type="submit" class="btn-success">Order Pizza!</button>
+        <button type="submit" class="btn btn-info btn-lg">Order Pizza!</button>
       </form>
     </div>
 
     <div id="show-price">
-      <h2>Please pay this amount for your piza:</h2>
+      <h4>Please pay this amount for your pizza:</h4>
       <p id="price">
       </p>
     </div>
