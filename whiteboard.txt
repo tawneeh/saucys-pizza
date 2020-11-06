@@ -1,0 +1,12 @@
+PizzaOrder.prototype.calculatePrice = function() {
+  this.basePrice = 5;
+}
+
+The PizzaOrder always starts at a base price of $5
+
+The size and toppings chosen will change the cost of the pizza afer that, so...
+
+if size chosen === "small"  -------- if pizza.size === "small"
+  basePrice += 4.99;
+else if size chosen === "medium" 
+  basePrice += 6.99;
