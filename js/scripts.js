@@ -1,6 +1,7 @@
 //Business Logic for Pizza Orders -----
 function PizzaOrder() {
   this.pizzas = [];
+  this.price = basePrice + calculatedPrice;
 }
 
 PizzaOrder.prototype.addPizza = function(pizza) {
@@ -8,7 +9,8 @@ PizzaOrder.prototype.addPizza = function(pizza) {
 }
 
 PizzaOrder.prototype.calculatePrice = function() {
-
+  this.basePrice = 5;
+  
 }
 
 // Business Logic for Pizzas ---------
@@ -19,6 +21,17 @@ function Pizza(size, toppings) {
 
 
 
-// User Interface Logic -----
 
-const pizzaSize = $("#size").val();
+
+
+// User Interface Logic -----
+/*
+$(document).ready(function() {
+  let pizzaOrder;
+  let newOrder = new PizzaOrder();
+  newOrder.addPizza();
+
+
+  const pizza.size = $("#size").val();
+  const pizza.toppings = $("#
+*/
