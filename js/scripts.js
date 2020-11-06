@@ -7,7 +7,7 @@ PizzaOrder.prototype.addPizza = function(pizza) {
   this.pizzas.push(pizza);
 }
 
-// Business Logic for Contacts ---------
+// Business Logic for Pizzas ---------
 function Pizza(size, toppings) {
   this.size = size;
   this.toppings = toppings;
@@ -17,3 +17,4 @@ function Pizza(size, toppings) {
 Pizza.prototype.calculatePrice = function() {
 
 }
+
