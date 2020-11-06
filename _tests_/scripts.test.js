@@ -4,10 +4,9 @@
 
 // Test: should add pizza to the user order
 // Code: pizzaOrder.addPizza(small cheese pizza)
-// Expect: order = [small cheese pizza]
+// Expect: order = [small, cheese pizza]
 
-// Test: 
-// Expect:
+// Describe: calculatePrice()
 
-// Test:  
-// Expect:
+// Test: should calculate cost for the pizza order
+// Expect: order = [small, cheese pizza] results.toEqual($9.99)
