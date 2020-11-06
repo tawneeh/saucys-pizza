@@ -20,3 +20,24 @@ for (pizza toppings index
 
 
 the for loop above should loop through the properties in the pizza pushed to the PizzaOrder array to determine which toppings it contains to generare the cost --- how to determine which checkboxes are checked?
+
+
+totalPrice should = basePrice + calculatedPrice
+
+calculatedPrice = size input + toppings input
+
+once totalPrice is formulated correctly, then probably make PizzaOrder.prototype.displayTotalPrice() method
+  then, link that value to HTML output
+
+
+Potential good for loop with branching reference:
+
+let Dinos=[dino1,dino2,dino3,dino4];
+dinoSearch = [];
+Dino.prototype.findDino=function(period, diet,Dinos){
+  for (i=0;i<Dinos.length;i++){ 
+    if (Dinos[i].period="Jurassic" && Dinos[i].diet="herbivore"){
+      dinosearch.push(Dinos[i]); 
+    }
+  }
+}
