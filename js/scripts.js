@@ -1,7 +1,7 @@
 //Business Logic for Pizza Orders -----
 function PizzaOrder() {
   this.pizzas = [];
-  this.totalPrice = basePrice + calculatedPrice;
+  this.price = 5;
 }
 
 PizzaOrder.prototype.addPizza = function(pizza) {
@@ -9,11 +9,10 @@ PizzaOrder.prototype.addPizza = function(pizza) {
 }
 
 PizzaOrder.prototype.calculatePrice = function(pizza) {
-  this.basePrice = 5;
-  this.totalPrice = "$";
+  thistotalPrice = this.price + this.totalPrice;
   for (i=0; i < pizza.length; i++) {
     if (pizza[i].size="Small")
-      return this.totalPrice === this.baseprice + 5;
+      return this.totalPrice;
   }
 };
 
@@ -22,7 +21,6 @@ function Pizza(size, toppings) {
   this.size = size;
   this.toppings = toppings;
 }
-
 
 
 
