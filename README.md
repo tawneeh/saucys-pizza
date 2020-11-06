@@ -15,17 +15,19 @@ Software Requirements
 * A code editor; I prefer VSCode
 
 Open by Downloading
-* Navigate to 
+* Navigate to <https://github.com/tawneeh/saucys-pizza.git>
+* Download this repository to your computer by clicking the green Code button and'Download Zip'
+* Or clone the repository
+* Then, double click `index.html` to view the page
 
 ## Specs
 
 | Test | Input | Output |
 | :----------- | :----------------------| :----------- |
-| functionName |||
-| test | Input | Output |
-| test | Input | Output |
-| test | Input | Output |
-| test | Input | Output |
+| Add Pizza |||
+| should add pizza to the user order | small cheese pizza | [small cheese pizza] |
+| Calculate Price |||
+| should calculate correct price for the user order | small cheese pizza | $ 9.99
 
 
 
