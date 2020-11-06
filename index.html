@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/scripts.js"></script>
+<title>Saucy's Pizza</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Saucy's Pizza</h1>
+    <p>Where the pizza is always deliciously saucy!</p>
+      <form id="orderForm">
+        <div>
+        <h1>Choose Your Pizza Size</h1>
+          <select class="form-control" id="size">
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+          </select>
+        </div>
+
+        <fieldset>
+          <legend>Choose Your Pizza Toppings</legend>
+            <div>
+              <input type="checkbox" id="cheese" name="topping" value="cheese" checked></input>
+              <label for="cheese">Cheese</label>
+            </div>
+            <div>
+              <input type="checkbox" id="black-olives" name="topping" value="black-olives"></input>
+              <label for="black-olives">Black Olives</label>
+            </div>
+            <div>
+              <input type="checkbox" id="mushrooms" name="topping" value="mushrooms"></input>
+            </div>
+        </fieldset>
+
+
+        <button type="submit" class="btn-success">Order Pizza!</button>
+      </form>
+    </div>
+
+    <div id="show-price">
+      <h2>Please pay this amount for your piza:</h2>
+      <p id="price">
+      </p>
+    </div>
+
+  </div> 
+
+</body>
+</html>
