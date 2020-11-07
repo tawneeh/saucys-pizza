@@ -27,7 +27,7 @@ Open by Downloading
 | Add Pizza |||
 | should add pizza to the user order | small cheese pizza | [small cheese pizza] |
 | Calculate Price |||
-| should calculate correct price for the user order | small cheese pizza | $ 9.99
+| should calculate correct price for the user order | small cheese pizza | $ 10
 
 
 

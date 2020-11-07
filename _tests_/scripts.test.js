@@ -9,4 +9,4 @@
 // Describe: calculatePrice()
 
 // Test: should calculate cost for the pizza order
-// Expect: order = [small, cheese pizza] results.toEqual($9.99)
+// Expect: order = [small, cheese pizza] results.toEqual($10)

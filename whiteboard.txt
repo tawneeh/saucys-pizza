@@ -28,16 +28,3 @@ calculatedPrice = size input + toppings input
 
 once totalPrice is formulated correctly, then probably make PizzaOrder.prototype.displayTotalPrice() method
   then, link that value to HTML output
-
-
-Potential good for loop with branching reference:
-
-let Dinos=[dino1,dino2,dino3,dino4];
-dinoSearch = [];
-Dino.prototype.findDino=function(period, diet,Dinos){
-  for (i=0;i<Dinos.length;i++){ 
-    if (Dinos[i].period="Jurassic" && Dinos[i].diet="herbivore"){
-      dinosearch.push(Dinos[i]); 
-    }
-  }
-}
