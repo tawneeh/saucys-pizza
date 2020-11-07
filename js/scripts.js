@@ -9,8 +9,9 @@ PizzaOrder.prototype.addPizza = function(pizza) {
 }
 
 PizzaOrder.prototype.calculatePrice = function(pizza) {
-  if (this.pizza.size == "small" {
-  
+  let totalPrice = "";
+  if (pizza.size == "small" {
+    totalPrice += "10";
   }
 };
 
