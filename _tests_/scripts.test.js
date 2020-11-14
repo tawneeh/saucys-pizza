@@ -1,12 +1,21 @@
 // Tests
 
-// Describe: addPizza()
+// Describe: Pizza(size, toppings)
 
-// Test: should add pizza to the user order
-// Code: pizzaOrder.addPizza(small cheese pizza)
-// Expect: order = [small, cheese pizza]
+// Test: create new instance of Pizza
+// Expect: myPizza(small, cheese)
 
-// Describe: calculatePrice()
+// Describe: Pizza.calculateSizePrice()
 
-// Test: should calculate cost for the pizza order
-// Expect: order = [small, cheese pizza] results.toEqual($10)
+// Test: should calculate cost for the pizza size
+// Expect: small pizza = $10
+
+// Describe: Pizza.getPizzaToppingSelections()
+
+// Test: should determine how many pizza toppings the user selects and calculate price
+// Expect: this.toppings.length = 1. $2.
+
+// Describe: Pizza.totalPrice()
+
+// Test: should return the size price and price of pizza toppings
+// Expect: totalPrice = $12
