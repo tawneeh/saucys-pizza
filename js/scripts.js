@@ -25,7 +25,6 @@ Pizza.prototype.getPizzaToppingSelections = function() {
 Pizza.prototype.totalPrice = function() {
   this.calculateSizePrice();  
   this.getPizzaToppingSelections(); 
-  return this.price;
 }
 
 $(document).ready(function(){
@@ -33,7 +32,8 @@ $(document).ready(function(){
     event.preventDefault();
       const size = $("#size").val();
       const toppings = $('input:checkbox[name=toppings]:checked').map(function() {
-        return this.value;}).get();
+        return this.value;
+      }).get();
 
       let newPizzaOrder = new Pizza(size, toppings);
       newPizzaOrder.totalPrice();
